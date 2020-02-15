@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Todo.js</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet/less" href="css/app.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+</head>
+
+<body>
+<div id="app">
+    <div class="app-container">
+        <div class="app-hall">
+            <div class="app-hall__title">
+                <p>Залы</p>
+            </div>
+            <div class="app-hall__list">
+                <div class="hall-item">
+                    <div class="hall-item__img">
+                        <img src="img/hall.png" alt="">
+                    </div>
+                    <div class="hall-item__text">
+                        <p>Зал №1</p>
+                    </div>
+                </div>
+                <div class="hall-item">
+                    <div class="hall-item__img">
+                        <img src="img/hall.png" alt="">
+                    </div>
+                    <div class="hall-item__text">
+                        <p>Зал №1</p>
+                    </div>
+                </div>
+                <div class="hall-item">
+                    <div class="hall-item__img">
+                        <img src="img/hall.png" alt="">
+                    </div>
+                    <div class="hall-item__text">
+                        <p>Зал №1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app-canvas">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="app-setting">
+            <div class="app-setting__title">
+                <p>Настройки</p>
+            </div>
+            <div class="app-setting__btn">
+                <button class="btn-rose addTable">Добавить стол</button>
+            </div>
+            <div class="app-setting__btn">
+                <button class="btn-rose addChair">Добавить стул</button>
+            </div>
+            <div class="app-setting__btn">
+                <button class="btn-rose zoomIn">Приблизить</button>
+            </div>
+            <div class="app-setting__btn">
+                <button class="btn-rose zoomOut">Отдалить</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="lib/fabric.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

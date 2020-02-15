@@ -1,0 +1,14 @@
+{
+  "name": "restobooking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "browser-sync start -server --files '*.html, css/*.less, js/*.less' "
+  },
+  "author": "",
+  "license": "ISC"
+}
